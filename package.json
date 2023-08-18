@@ -4,7 +4,8 @@
   "description": "Import this repo to create a starting point for Node.js projects in repl.it, https://replit.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +14,7 @@
     "@types/node": "^18.0.6",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "mongoose": "^7.4.3",
     "node-fetch": "^3.2.6"
   },
   "repository": {
@@ -22,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/FanielHabte/Templating-With-Ejs/issues"
   },
-  "homepage": "https://github.com/FanielHabte/Templating-With-Ejs#readme"
+  "homepage": "https://github.com/FanielHabte/Templating-With-Ejs#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
