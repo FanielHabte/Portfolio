@@ -1,8 +1,5 @@
 const express = require('express');
 const app = express();
-const port = 3000;
-
-
 
 app.set("view engine", "ejs");
 
@@ -17,37 +14,39 @@ app.get('/', (req, res) => {
   res.render("pages/index", {"title": title} );
 });
 
-app.get('/about', (req, res) => {
+app.get('/About', (req, res) => {
 
-  let title = "About Page"
+  let title = "About Us"
   res.render("pages/about", {"title": title} );
 });
 
 //
-app.get('/Communism', (req, res) => {
+app.get('/Contact', (req, res) => {
 
-  let title = "Communism"
-  res.render("pages/Communism", {"title": title} );
+  let title = "Contact"
+  res.render("pages/Contact", {"title": title} );
 });
 
 //
-app.get('/Socialism', (req, res) => {
+app.get('/Locations', (req, res) => {
 
-  let title = "Socialism "
-  res.render("pages/Socialism", {"title": title} );
+  let title = "Locations "
+  res.render("pages/Locations", {"title": title} );
 });
 
 //socialism page 
-app.get('/Capitalism', (req, res) => {
+app.get('/News', (req, res) => {
 
-  let title = "Capitalism"
-  res.render("pages/Capitalism", {"title": title} );
+  let title = "News"
+  res.render("pages/News", {"title": title} );
 });
 
-app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`);
-  console.log(data);
+//contact page
+app.get('/Services', (req, res) => {
+
+  let title = "Services"
+  res.render("pages/Services", {"title": title} );
 });
 
-app.listen(5000)
+app.listen(4000)
 
