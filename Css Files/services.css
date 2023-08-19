@@ -1,0 +1,21 @@
+.header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 40px;
+    margin: 0;
+    background-color: aquamarine;
+}
+
+.breif-services {
+    text-align: center;
+}
+
+.buttons {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+}

@@ -1,0 +1,147 @@
+html {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.top-nav {
+    background-color: aqua;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: normal;
+}
+
+.serving {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-left: 400px;
+    display: inline-flex;
+
+}
+
+.bt {
+    padding: 10px;
+    height: auto;
+    width: auto;
+    background-color: blanchedalmond;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    padding-right: 50px;
+    right: 10px;
+    width: 50px;
+}
+
+h1 {
+    align-items: center;
+    font-family: 'Poltawski Nowy', serif;
+    font-weight: 500;
+}
+
+.highlighted {
+    font-size: 20px;
+    /* Increased font size for highlighted text */
+}
+
+.box {
+    background-color: beige;
+    max-width: 360px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+}
+
+.Services {
+    margin-left: auto;
+    margin-right: auto;
+    gap: 25px;
+    padding: 35px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    /* Set grid template columns to have equal width */
+
+}
+
+.down {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    padding: 0 1rem;
+
+}
+
+.up {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.new {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    row-gap: 20px;
+    color: rgb(199, 184, 184);
+    margin: 0;
+    background-color: blue;
+    /* background-image: url(images/bk1\ 3.jpg); */
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+
+
+.Updates {
+    background-color: beige;
+    max-width: 360px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto;
+    padding: 20px;
+
+}
+
+.last {
+    margin-left: auto;
+    margin-right: auto;
+    gap: 25px;
+    padding: 35px;
+    display: flex;
+
+
+}
+
+hea {
+    background-color: rgb(230, 222, 222);
+    padding: 4px;
+    font-size: 18px;
+}
+
+a:-webkit-any-link {
+    color: rgb(57, 33, 33);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+nav {
+    gap: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: blue;
+    padding: 100px;
+}

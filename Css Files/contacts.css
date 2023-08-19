@@ -1,0 +1,47 @@
+.header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 40px;
+    margin: 0;
+    background-color: aquamarine;
+}
+
+.buttons {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    background-color: red;
+    color: whitesmoke;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+
+}
+
+
+
+.Contact-box {
+
+    border: 5px;
+    border-color: beige;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2),
+        0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    row-gap: 20px;
+    color: rgb(108, 144, 156);
+    margin: 50px;
+    background-color: rgb(11, 10, 10);
+    /* background-image: url(images/bk1\ 3.jpg); */
+    background-repeat: no-repeat;
+    padding: 25px;
+    max-width: 700px;
+
+}
+
+
+.entry {
+    width: 300px;
+    height: 25px;
+}
