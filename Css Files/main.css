@@ -4,24 +4,12 @@ a:-webkit-any-link {
     /* color: white; */
 }
 
-
 *{
     margin: 0;
     padding: 0;
     list-style: none ;
     text-decoration: none;
 }
-
-.top-nav {
-    padding: 10px;
-    width: 100%;
-    height: 80px;
-    display: block;
-    background-color: #101010;
-   
-}
-
-
 
 
 .Uppernav {
@@ -30,7 +18,7 @@ a:-webkit-any-link {
     /* Vertically center align items */
     justify-content: space-between;
     /* Space out the logo and navigation items */
-    width: 80%;
+    width: 100%;
     height: 100%;
     margin: 0 auto;
     font-weight: 300;
@@ -74,7 +62,10 @@ a:-webkit-any-link {
 }
 
 body {
-
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: normal;
@@ -103,19 +94,21 @@ h1 {
     font-weight: 500;
 }
 
-.highlighted {
+.Promise-head {
     font-size: 20px;
     /* Increased font size for highlighted text */
 }
 
-.box {
-    background-color: beige;
+.Promise {
+    background-color: whitesmoke;
     max-width: 360px;
     height: auto;
     border: 1px solid black;
     margin: auto;
     padding: 20px;
 }
+
+
 
 .Services {
     margin-left: auto;
@@ -138,43 +131,80 @@ h1 {
 
 }
 
-.up {
+.top-nav {
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    display: block;
+    background-color: #101010;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;   
+    
+}
+
+
+.titles {
     font-size: 22px;
     font-weight: bold;
 }
 
-.new {
+.Promises-Container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    max-width: 900px;
+    /* Add this line to set the maximum width */
     gap: 50px;
     row-gap: 20px;
-    color: rgb(199, 184, 184);
-    margin: 0;
-    background-color: blue;
-    /* background-image: url(images/bk1\ 3.jpg); */
+    color: black;
+    margin: 0 auto;
+    /* Center the container horizontally */
+    background-color: #101010;
     background-repeat: no-repeat;
     padding: 20px;
 }
 
+.services-container{
+    /* margin-top: 70px;
+    margin-bottom: 70px; */
+    margin: 70px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    row-gap: 20px;
+    display: grid;
 
-.Updates {
-    background-color: beige;
+}
+ .services-container h2 {
+    border-bottom: 2px solid black;
+    
+ }
+
+.Updates-container {
+    /* background-color: beige; */
     max-width: 360px;
     height: auto;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto;
     padding: 20px;
-
 }
 
-.last {
-    margin-left: auto;
-    margin-right: auto;
+.news-boxes-container{
+    justify-items: center;
     gap: 25px;
     padding: 35px;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: space-around;
+    align-items: center;
 }
-
+.buttons{
+    border-radius: 10px;
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    
+}
 nav {
     gap: 10px;
     text-align: center;
@@ -184,28 +214,78 @@ nav {
     background-color: #101010;
     height: 100%;
     width: 100%;
-    padding: 50px;
-    margin: 0;
-    
+    padding: 60px;
+    margin: 0px;
+    align-items: center;
+
+
 }
 .footerbox{
     height: 100%;
     width: 100%;
-    display: block;
-    
+    display: flex;
+    justify-content: space-around;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
 }
 .footer-rows{
     display: flex;
-    gap: 20px;
+    gap: 50px;
     
 }
 h4{
-    color: white;
-    font-weight: 800;
+    border-bottom: 2px solid white;
+    color: rgb(242, 235, 235);
+    font-weight: 500;
     font-size: 18px;
     font-family: 'Bebas Neue','Open Sans','Poppins' sans-serif;
+    padding:0 1rem ;
+    padding-bottom: 5px;
 }
 .entites li a {
+    padding-top: 15px;
     color: rgb(158, 157, 157);
     font-size: small;
+   
+}
+
+.Contact-box {
+
+    border: 5px;
+    border-color: beige;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2),
+        0 4px 8px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 50px;
+    row-gap: 20px;
+    color: rgb(108, 144, 156);
+    margin: 50px;
+    background-color: rgb(11, 10, 10);
+    /* background-image: url(images/bk1\ 3.jpg); */
+    background-repeat: no-repeat;
+    padding: 25px;
+    max-width: 700px;
+
+}
+
+
+.entry {
+    width: 300px;
+    height: 25px;
+}
+
+.map{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.embeded-map{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    justify-content: space-around;
+    
 }
