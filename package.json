@@ -6,7 +6,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "devStart": "nodemon index.js"
-    
   },
   "keywords": [],
   "author": "",
@@ -27,6 +26,7 @@
   },
   "homepage": "https://github.com/FanielHabte/Templating-With-Ejs#readme",
   "devDependencies": {
+    "netlify-cli": "^16.2.0",
     "nodemon": "^3.0.1"
   }
 }
