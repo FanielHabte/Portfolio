@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 app.get('/About', (req, res) => {
   try {
     let title = "About Us";
-    res.render("views/pages/About.ejs", { "title": title });
+    res.render("pages/Contact", { "title": title });
   } catch (error) {
     // Handle the error
     console.error("Error rendering About page:", error);
@@ -58,3 +58,4 @@ app.get('/Services', (req, res) => {
 });
 
 
+app.listen(5000)
