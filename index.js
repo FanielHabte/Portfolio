@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
 app.get('/About', (req, res) => {
   try {
     let title = "About Us";
-    res.render("pages/About", { "title": title });
+    res.render("views/pages/About.ejs", { "title": title });
   } catch (error) {
     // Handle the error
     console.error("Error rendering About page:", error);
