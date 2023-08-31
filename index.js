@@ -19,9 +19,14 @@ app.get('/', (req, res) => {
 });
 
 app.get('/About', (req, res) => {
-
-  let title = "About Us"
-  res.render("pages/About", {"title": title} );
+  try {
+    let title = "About Us";
+    res.render("pages/About", { "title": title });
+  } catch (error) {
+    // Handle the error
+    console.error("Error rendering About page:", error);
+    res.status(500).send("Internal Server Error");
+  }
 });
 
 //
