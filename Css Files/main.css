@@ -25,7 +25,8 @@
     position: fixed;
     padding: auto;
     margin: auto;
-    background-color:  #1b1f24;;
+    background-color:  #1b1f24;
+    
     
 
 }
@@ -39,12 +40,14 @@
     font-weight: 300;
     background-color: #1b1f24;
     margin:auto;
+    
 }
 
 
 .logo {
-    font-size: 35px;
-    font-family: 'Bebas Neue','Open Sans',sans-serif;
+    font-size: 30px;
+    /* font-family: 'Bebas Neue','Open Sans',sans-serif; */
+    font-family: 'Space Grotesk', sans-serif;
     color: white;
 }
 
@@ -100,6 +103,7 @@ h1 {
     color: white;
     font-family: 'Lato', sans-serif;
     background-color: transparent; 
+    
 
     
 }
@@ -140,6 +144,7 @@ h1 {
     background-position: 30% center;
     background-repeat: no-repeat;
     height: 100%;
+    
     
 }
 
@@ -231,6 +236,8 @@ h1 {
     text-align: left;
     padding-left: 30px;
     margin: auto;
+    padding-bottom: 50px ;
+
 }
 
 .projects-container{
@@ -260,7 +267,37 @@ h1{
 
 }
 .section-three{
-    background-color:#1b1f24;;
+    background-color:#1b1f24;
+
+}
+
+.skills-container{
+
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+max-width: 1000px;
+justify-content: space-around;
+margin: auto;
+padding-bottom:50px ;
+
+
+}
+.Skills-head{
+    font-family:'Lato', sans-serif;
+    color: #36b37e;
+}
+
+
+
+.resume{
+    text-align: center;
+    background-color: rgb(45, 52, 63);
+    padding-bottom: 50px;
+}
+
+.resume img{
+    padding-top: 50px;
+    height: 770px;
 }
 
  .services-container h2 {
@@ -312,25 +349,23 @@ nav {
 .footer {
     height: 100%;
     width: 100%; 
-    margin: 0px;
-    align-items: center;
-
-}
-
-.footerbox{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.footer-rows{
-    display: flex;
-    gap: 50px;
+    margin: 0;
     
-}
+    background-color: #1b1f24;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: 'Space Grotesk', sans-serif;
+    /* background-image: url(/images/Untitled\ design\ \(1\).png); */
+    /* background-size: 400px 400px;
+    background-repeat: no-repeat;
+    background-position: left top; */
 
+}
+/* footer img{
+    height: 200px;
+    width: 200px;
+    margin: auto;
+} */
 h4{
     border-bottom: 2px solid white;
     color: rgb(242, 235, 235);
@@ -341,49 +376,71 @@ h4{
     padding-bottom: 5px;
 }
 
-.entites li a {
-    padding-top: 15px;
-    color: rgb(158, 157, 157);
-    font-size: small;
-   
+.footer-name-title{
+    font-size: 30px;
+    color: white;
+    background-color: transparent;
+    margin-left: 45px;
 }
 
-.Contact-box {
-
-    border: 5px;
-    border-color: beige;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2),
-        0 4px 8px rgba(0, 0, 0, 0.1);
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 50px;
-    row-gap: 20px;
-    color: #0a1158;
-    margin: 50px;
+.contact-box{
     
+    text-align: right;
+    column-gap: 40px;
+
+}
+.email-call{
+    display: flex;
+    padding-top: 10px;
+    column-gap: 15px;
+}
+
+.contac-box-container{
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 25px;
+}
+
+
+
+.email{
+    display: block;
+    height: fit-content; 
+}
+.email h3 {
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.social-icons{
+    display: flex;
+    column-gap: 10px;
+}
+.social-icons li {
+    padding-top: 10px;
+}
+
+.social-meida{
+    padding-left: 30px;
+    padding-top: 10px;
     
-    background-repeat: no-repeat;
-    padding: 25px;
-    max-width: 700px;
+}
+.social-meida h3 {
+    padding-left: 25px;
 
 }
 
-
-.entry {
-    width: 300px;
-    height: 25px;
-}
-
-.map{
-    height: 100%;
+.social-contact{
+    display: flex;
     width: 100%;
-    
+    margin: 0;
+
 }
 
-.embeded-map{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    display: grid;
-    justify-content: space-around;
-    
-}
+
+
+
+
+
+
+
