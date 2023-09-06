@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="htmls">
 
 <head>
   <title> faniel habte </title>
@@ -10,6 +10,7 @@
     @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&display=swap');
     
   </style>
+  
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -21,7 +22,7 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@700&family=Open+Sans:wght@300&family=Poppins:wght@600&family=Space+Grotesk:wght@600&display=swap"
       rel="stylesheet">
   
-  
+  <script src="/script.js"> </script>
   <link rel="stylesheet" href="Css Files/main.css" type="text/css">
   <link rel="icon" href="/images/code-solid (4).svg" type="image/x-icon">
 
@@ -32,7 +33,7 @@
     rel="stylesheet">
 </head>
 
-<header>
+
   
 
 <div class="top-nav">
@@ -41,22 +42,49 @@
       <li><a href="/"> <i class="fa-solid fa-code" style="color: #0e5ce1;"></i></a> Faniel Habte </li>
       <!-- <img src="your-logo.png" alt="Logo"> -->
         </div >
-
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
           <ul class="navigations">
+            
             <li><a href="/">Home</a></li>
+            <br>
             <li><a href="About">About</a></li>
+            <br>
             <li><a href="Portofolio">Portofolio</a></li>
-            <li><a href="https://github.com/FanielHabte" target="_blank" > <i class="fa-brands fa-github"> </i> Github </a>  </li>
+            <br>
+            <div class="closeMenu"> <i class="fa fa-times"></i> </div>
+           <span class="icons"> 
+          <li><a href="https://github.com/FanielHabte" target="_blank"> <i class="fa-brands fa-github"> </i> Github </a> </li> </span>
+          <button class="buttons"> Hire me </button>
           </ul>
 
 
           <div>
-            <button class="buttons"> Hire me </button>
+            
           </div>
         </div>
         
 </div>
-  </header>
+
+<script>
+
+  const mainMenu = document.querySelector('.navigations');
+    const closeMenu = document.querySelector('.closeMenu');
+    const openMenu = document.querySelector('.openMenu');
+
+    openMenu.addEventListener('click', show);
+    closeMenu.addEventListener('click', close);
+
+    function show() {
+      mainMenu.style.display = 'flex';
+      mainMenu.style.top = '0';
+
+    }
+    function close() {
+      mainMenu.style.top = "-100%";
+    }
+
+</script>
+
   <!-- navigations -->
   
   

@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
   res.render("pages/index", {"title": title} );
 });
 
-app.get('/About', (req, res) => {
+app.get('/about', (req, res) => {
     let title = "About Us";
     res.render("pages/About", { "title": title });
 });
@@ -29,6 +29,8 @@ app.get('/Portofolio', (req, res) => {
   let title = "Portofolio"
   res.render("pages/Portofolio", {"title": title} );
 });
+
+
 
 //
 
