@@ -72,6 +72,7 @@
 .navigations li {
     margin: 0 20px;
     
+    
 }
 
 .navigations a {
@@ -83,6 +84,7 @@
 .navigations li a:hover {
     background: #36b37e;
 }
+
 .nav .top-nav .closeMenu , .icons i {
     font-size: 2rem;
     display: none;
@@ -297,6 +299,7 @@ h1{
 
 .section-three{
     background-color:#1b1f24;
+    text-align: center;
    
 }
 
@@ -306,7 +309,9 @@ h1{
     max-width: 1000px;
     justify-content: space-around;
     margin: auto;
-    padding-bottom:50px ;
+    padding-bottom:40px ;
+    align-items: center;
+    text-align: center;
  
 }
 
@@ -314,7 +319,43 @@ h1{
     font-family:'Lato', sans-serif;
     color: #36b37e;
 }
+.javascript-skills {
+    text-align: center;
 
+}
+.fa-brands.fa-python  {
+    color: #306998;
+    font-size: 70px;
+    padding-top: 10px;
+}
+.fa-brands.fa-js{
+    color: #F7DF1E;
+    font-size: 70px;
+    padding-top: 10px;
+}
+.fa-brands.fa-html5 {
+    color: #E34F26;
+    font-size: 70px;
+    padding-top: 10px;
+}
+.fa-brands.fa-css3 {
+    color: #3E8E3E;
+    font-size: 70px;
+    padding-top: 10px;
+}
+.fa-brands.fa-node {
+    color: #8CC84B;
+    font-size: 70px;
+    padding-top: 10px;
+}
+.javascript-skills img{
+    height: auto;
+    padding-top: 10px;
+}
+.section-three a {
+    font-size: 25px;
+    
+}
 .about{
     padding-top: 130px;
     background-color: #1b1f24;
@@ -346,7 +387,22 @@ h1{
     font-weight: 700;
     cursor: pointer;
 }
-
+.retunbutton{
+    display: none;
+}
+.return-home-bt{
+    
+    color: aliceblue;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: right;
+}
+.retunbutton{
+    width: auto;
+    text-align: right;
+    
+    padding-left: 150px;
+padding-top: 20px;
+}
 
 nav {
     gap: 10px;
@@ -484,6 +540,9 @@ nav {
     width: 500px;
     padding-top: 50px;
 }
+.about-p-two p {
+    padding-top: 10px;
+}
 
 .about-3{
     display: flex;
@@ -499,6 +558,9 @@ nav {
     padding-top: 120px;
     
 
+}
+.about-p-three p {
+    padding-top: 10px;
 }
 .about-3 img{
     height: 400px;
@@ -523,9 +585,14 @@ nav {
     padding-left: 20px;
     padding-right: 20px;
     width: auto;
-    
-
-
+}
+.portofolios{
+    text-align: center;
+   
+}
+.portofolios p {
+    color: aliceblue;
+        font-size: 15px;
 }
 .about h1 {
     font-family: 'Space Grotesk', sans-serif;
@@ -541,6 +608,7 @@ nav {
     padding-left: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
+    
 }
 .p-parapgraph h1{
     font-family: 'Space Grotesk', sans-serif;
@@ -549,6 +617,16 @@ nav {
 }
 .p-parapgraph p {
     padding-top: 20px;
+    width: fit-content;
+    text-align: center;
+}
+.p-parapgraph li a {
+    color: white;
+    
+    
+}
+.p-parapgraph li a:hover {
+    background-color: #36b37e;
 }
 
 .portofolios video {
@@ -570,6 +648,9 @@ nav {
     justify-content: space-around, space-between;
     max-width: 100%;
    
+}
+.retunbutton-2{
+    display: none;
 }
 
 @media (max-width:768px) {
@@ -935,7 +1016,26 @@ nav {
     height: auto;
    
     }
+.return-home-bt2 {
+display: contents;
+    color: aliceblue;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: right;
+    
+    padding-left: 250px;
+}
 
+.retunbutton {
+    display: contents;
+    width: auto;
+    padding-left: 50px;
+    padding-top: 20px;
+}
+.retunbutton-2{
+    display: contents;
+    text-align: right;
+    padding-top: 20px;
+}
 }
 
 

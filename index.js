@@ -15,12 +15,12 @@ app.use(express.static(__dirname));
 app.get('/', (req, res) => {
 
   let title = "Home"
-  res.render("pages/index", {"title": title} );
+  res.render("pages/", {"title": title} );
 });
 
 app.get('/about', (req, res) => {
     let title = "About Us";
-    res.render("pages/About", { "title": title });
+    res.render("pages/about", { "title": title });
 });
 
 //
