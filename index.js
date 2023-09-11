@@ -12,6 +12,7 @@ app.set("view engine", "ejs");
 app.use(express.static(__dirname));
 
 
+
 app.get('/', (req, res) => {
 
   let title = "Home"
@@ -29,6 +30,8 @@ app.get('/Portofolio', (req, res) => {
   let title = "Portofolio"
   res.render("pages/Portofolio", {"title": title} );
 });
+
+
 
 
 

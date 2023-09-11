@@ -22,17 +22,19 @@
     padding-bottom: 50px;
 }
 
+
 .top-nav {
     padding-top: 4px;
-    margin:auto;
+    margin: auto;
     width: auto;
     height: 100px;
     display: block;
     position: fixed;
-   width: 100%;
+    width: 100%;
     margin: 0;
-    background-color:  #1b1f24;
+    background-color: #1b1f24;
 }
+
 
 
 .Uppernav {
@@ -82,7 +84,7 @@
     font-family: 'Lato', sans-serif; 
 }
 .navigations li a:hover {
-    background: #36b37e;
+    color: #36b37e;
 }
 
 .nav .top-nav .closeMenu , .icons i {
@@ -386,7 +388,12 @@ h1{
     font-size: large;
     font-weight: 700;
     cursor: pointer;
+    transition: transform 0.3s ease;
 }
+/* .buttons:hover {
+    transform: translateY(-5px);
+
+} */
 .retunbutton{
     display: none;
 }

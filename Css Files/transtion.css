@@ -1,0 +1,67 @@
+.buttons:hover {
+    transform: translateY(-5px);
+
+}
+.fa-solid.fa-arrow-right:hover {
+    transform: translateX(10px);
+
+
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-300px);
+
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInDown {
+    from {
+        transform: translateY(-100%);
+
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    form {
+        opacity: 0;
+
+    }
+
+    to {
+        opacity: 1;
+
+    }
+}
+
+#FadeIn {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards;
+}
+
+
+#slideInLeft {
+    animation: slideInLeft 1s ease-in;
+}
+
+#slideInLeft-slow {
+    animation: slideInLeft 1.5s ease-in;
+    
+
+}
+
+#slideInLeft-slower {
+    animation: slideInLeft 2.5s ease-in;
+}
+
+#slideInDown{
+    animation: slideInDown 1s ease-in;
+}
