@@ -81,6 +81,8 @@
     color: white;
     font-size: 17px;
     font-family: 'Lato', sans-serif; 
+    opacity: 0;
+     animation: fadeIn 1s ease-in forwards;
     
 }
 .navigations li a:hover {
@@ -1287,7 +1289,10 @@ nav {
     padding-top: 10px;
     text-align: center;
 }
-
+.navigations a {
+    animation: none;
+    opacity: 1;
+}
 }
 
 

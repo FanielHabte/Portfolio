@@ -1,6 +1,5 @@
 .buttons:hover {
     transform: translateY(-5px);
-
 }
 .fa-solid.fa-arrow-right:hover {
     transform: translateX(10px);
