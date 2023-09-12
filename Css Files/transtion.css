@@ -4,8 +4,20 @@
 }
 .fa-solid.fa-arrow-right:hover {
     transform: translateX(10px);
+}
 
 
+@keyframes hovereffect {
+    from{
+        transform: translateY(0);
+
+    }
+    
+    to{
+        transform: translateY(-5px);
+
+
+    }
 }
 
 @keyframes slideInLeft {
