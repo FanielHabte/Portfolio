@@ -1226,7 +1226,7 @@ nav {
     .sections{
     width: 100%;
     background-image: none;
-    padding-bottom: 90px;
+    margin-bottom: 0px;
     }
 
     .skills-container {
