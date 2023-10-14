@@ -393,6 +393,11 @@ h1{
     height: auto;
     padding-top: 10px;
 }
+.fa-solid.fa-database{
+    color: gray;
+    font-size: 60px;
+    padding-top: 10px;  
+}
 .section-three a {
     font-size: 25px;
     
@@ -572,6 +577,7 @@ nav {
     font-size:30px;
     color: black;  
 }
+
 .Awards{
 
      background-color: #1b1f24;
